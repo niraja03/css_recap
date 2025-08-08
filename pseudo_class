@@ -1,0 +1,63 @@
+HTML :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>
+    <a href="https:/">Google.com</a>
+    <button>CLICK ME</button>
+    </h1>
+    <ul>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+        <li> ELEMENT for list </li>
+    </ul>
+</body>
+</html>
+<!---pseudo class = its a keyword added to selector that specifies a special state of the selected element-->
+
+CSS:
+
+a:link{
+    color:green;
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:aquamarine;
+}
+a:active{
+    color:yellow
+}
+button:hover{
+    background-color: lightcoral;
+}
+li:nth-child(even) {
+    background-color: yellow;
+}
+li:nth-child(odd) {
+    background-color: grey;
+}
+/*
+a:link: The default style for a link you haven't clicked yet.
+
+a:visited: The style for a link you have already visited.
+
+a:hover: The style when you move your mouse over the link.
+
+a:active: The style for the exact moment you click the link.
+*/
