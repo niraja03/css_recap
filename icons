@@ -1,0 +1,45 @@
+HTML :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    
+</head>
+<body>
+    <i class="fas fa-house"></i> 
+    <a href="https://youtube.com"></a>
+    <br>
+    <br>
+    
+<a href="https://twitter.com">    
+    <i class="fab fa-twitter"></i>
+</a>    
+<br>
+<br>
+<a href="https://youtube.com">
+    <i class="fab fa-youtube"></i>
+</a>
+</body>
+</html>
+
+CSS :
+
+.fa-house{
+    color: rgb(148, 148, 42);
+    font-size: 50px;
+}
+
+.fa-twitter{
+    color:rgb(4, 217, 217);
+    font-size:50px;
+}
+.fa-youtube{
+    color: rgb(213, 10, 10);
+    font-size: 50px;
+}
