@@ -1,0 +1,56 @@
+HTML :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div id="box1">HELLO</div>
+    
+</body>
+</html>
+
+CSS :
+
+#box1 {
+    width: 250px;
+    height: 250px;
+    background: red; /* Initial background color */
+    font-size: 75px;
+    text-align: center;
+    
+    /* This line applies the color-changing animation */
+    animation: mycolorchange 5s linear infinite; 
+}
+
+/* This keyframe defines the color-changing sequence */
+@keyframes mycolorchange {
+    0%   { background: red; }
+    40%  { background: orange; }
+    60%  { background: yellow; }
+    80%  { background: green; }
+    100% { background: purple; }
+}
+
+/* --- Other Animations (Defined but not used by #box1) --- */
+
+@keyframes myslide {
+    from { margin-left: 0%; }
+    to { margin-left: 100%; }
+}
+
+@keyframes rotation {
+    100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+}
+
+@keyframes myopacity {
+    50% { opacity: 0; }
+}
+
+@keyframes myscale {
+    50% { transform: scale(0.5, 0.5); }
+}
